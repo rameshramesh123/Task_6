@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="css/final.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* PAN Card Styles */
+.pan-card {
+    width: 350px;
+    height: 200px;
+    background: linear-gradient(135deg, #e0f7fa, #b2ebf2);
+    border: 1px solid #00796b;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* PAN Card Header */
+.pan-header {
+    text-align: center;
+    color: #004d40;
+}
+
+.pan-header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.pan-header h2 {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+/* PAN Card Body */
+.pan-body {
+    flex-grow: 1;
+}
+
+.pan-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.pan-label {
+    font-weight: bold;
+    color: #004d40;
+}
+
+.pan-value {
+    color: #00796b;
+}
+
+/* PAN Card Footer */
+.pan-footer {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #004d40;
+}
+
+.pan-signature {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #004d40;
+    border-radius: 5px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="pan-card">
+        <div class="pan-header">
+            <h1>INDIA</h1>
+            <h2>Permanent Account Number (PAN)</h2>
+        </div>
+        <div class="pan-body">
+            <div class="pan-section">
+                <div class="pan-label">Name:</div>
+                <div class="pan-value">John Doe</div>
+            </div>
+            <div class="pan-section">
+                <div class="pan-label">Father's Name:</div>
+                <div class="pan-value">Richard Doe</div>
+            </div>
+            <div class="pan-section">
+                <div class="pan-label">Date of Birth:</div>
+                <div class="pan-value">01/01/1985</div>
+            </div>
+            <div class="pan-section">
+                <div class="pan-label">PAN Number:</div>
+                <div class="pan-value">ABCDE1234F</div>
+            </div>
+        </div>
+        <div class="pan-footer">
+            <img src="/images/signature20kb.jpeg" alt="Signature" class="pan-signature">
+            <p>Signature</p>
+        </div>
+    </div>
+</body>
